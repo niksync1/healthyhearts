@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: healthyhearts-web
+    env: node
+    plan: free
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm run start"
+    branch: main
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_TELEMETRY_DISABLED
+        value: 1
+    disk: 1024
+    regions:
+      - oregon
