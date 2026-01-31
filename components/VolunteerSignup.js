@@ -20,9 +20,9 @@ export default function VolunteerSignup(){
 
   return (
     <form onSubmit={submit} className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-xl" aria-label="Volunteer signup form">
-      <input required placeholder="Name" value={form.name} onChange={e=>setForm({...form,name:e.target.value})} className="p-2 border rounded" />
-      <input required type="email" placeholder="Email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} className="p-2 border rounded" />
-      <button className="bg-teal-600 text-white px-4 py-2 rounded">Sign up to volunteer</button>
+  <input required placeholder="Name" value={form.name} onChange={e=>setForm({...form,name:e.target.value})} className="p-2 border rounded" />
+  <input required type="email" placeholder="Email" value={form.email} onChange={e=>setForm({...form,email:e.target.value})} className="p-2 border rounded" />
+  <button className="bg-brand-green text-white px-4 py-2 rounded hover:bg-brand-dark">Sign up to volunteer</button>
       <div className="md:col-span-2 text-sm text-slate-700 dark:text-slate-300">{status}</div>
     </form>
   )

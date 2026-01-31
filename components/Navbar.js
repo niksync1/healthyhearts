@@ -27,14 +27,14 @@ export default function Navbar(){
       <div className="container flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-3">
           <Image src="/main_logo.png" alt="Life From 30" width={40} height={40} />
-          <span className="font-semibold text-lg text-slate-900 dark:text-slate-100">Life From 30</span>
+          <span className="font-semibold text-lg text-brand-dark dark:text-slate-100">Life From 30</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
-          <Link href="/about" className="text-slate-700 dark:text-slate-200">About</Link>
-          <Link href="/resources" className="text-slate-700 dark:text-slate-200">Resources</Link>
-          <Link href="/community" className="text-slate-700 dark:text-slate-200">Community</Link>
-          <Link href="/contact" className="text-slate-700 dark:text-slate-200">Contact</Link>
+          <Link href="/about" className="text-slate-700 dark:text-slate-200 hover:text-brand-green">About</Link>
+          <Link href="/resources" className="text-slate-700 dark:text-slate-200 hover:text-brand-green">Resources</Link>
+          <Link href="/community" className="text-slate-700 dark:text-slate-200 hover:text-brand-green">Community</Link>
+          <Link href="/contact" className="text-slate-700 dark:text-slate-200 hover:text-brand-green">Contact</Link>
           <button onClick={()=>setDark(d=>!d)} aria-label="Toggle dark mode" className="ml-2 px-3 py-1 rounded bg-amber-100 text-amber-700">{dark ? 'Light' : 'Dark'}</button>
         </nav>
 

@@ -26,7 +26,7 @@ export default function BMICalculator(){
         </label>
       </div>
       <div className="flex items-center gap-3">
-        <button className="bg-teal-600 text-white px-4 py-2 rounded">Calculate BMI</button>
+  <button className="bg-brand-green text-white px-4 py-2 rounded hover:bg-brand-dark">Calculate BMI</button>
         {bmi && <div className="text-sm text-slate-700 dark:text-slate-300">BMI: <strong>{bmi}</strong></div>}
       </div>
     </form>
