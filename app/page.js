@@ -10,7 +10,7 @@ export default function Home(){
       <section className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="p-4 rounded-lg md:p-0 md:bg-transparent bg-white/90 dark:bg-slate-900/75 md:dark:bg-transparent md:backdrop-blur-0">
-            <h1 className="text-3xl md:text-4xl font-bold text-black md:text-slate-900 dark:text-slate-100">Healthy Living Starts After 30</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-black md:text-slate-900 dark:text-slate-100">Healthy Living Matters From 30</h1>
             <p className="mt-4 text-slate-800 md:text-slate-700 dark:text-slate-300">Join a community focused on sustainable habits: regular exercise, balanced nutrition, and routine blood pressure checks.</p>
             <div className="mt-6 flex gap-3">
               <a href="/community" className="bg-teal-600 text-white px-4 py-2 rounded">Join Community</a>

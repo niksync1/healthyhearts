@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'Life From 30 - Healthy Living Starts After 30',
+  title: 'Life From 30 - Healthy Living Matters From 30',
   description: 'Life From 30 is a health & lifestyle charity encouraging adults to live healthy lives.'
 }
 
