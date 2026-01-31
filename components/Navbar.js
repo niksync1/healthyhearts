@@ -39,8 +39,8 @@ export default function Navbar(){
         </nav>
 
         <div className="md:hidden flex items-center gap-3">
-          <button onClick={()=>setDark(d=>!d)} aria-label="Toggle dark mode" className="px-2 py-1 rounded bg-amber-100 text-amber-700">{dark ? '☀️' : '🌙'}</button>
-          <button aria-label="Open menu" onClick={()=>setOpen(o=>!o)} className="p-2">
+          <button onClick={()=>setDark(d=>!d)} aria-label="Toggle dark mode" className="px-2 py-1 rounded bg-amber-100 text-amber-700 dark:bg-slate-700 dark:text-white">{dark ? '☀️' : '🌙'}</button>
+          <button aria-label="Open menu" onClick={()=>setOpen(o=>!o)} className="p-2 text-slate-700 dark:text-slate-100">
             <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
         </div>
@@ -49,10 +49,10 @@ export default function Navbar(){
       {open && (
         <div className="md:hidden bg-white dark:bg-slate-900 border-t">
           <div className="container flex flex-col py-4">
-            <Link href="/about" className="py-2">About</Link>
-            <Link href="/resources" className="py-2">Resources</Link>
-            <Link href="/community" className="py-2">Community</Link>
-            <Link href="/contact" className="py-2">Contact</Link>
+            <Link href="/about" className="py-2 text-slate-900 dark:text-slate-100">About</Link>
+            <Link href="/resources" className="py-2 text-slate-900 dark:text-slate-100">Resources</Link>
+            <Link href="/community" className="py-2 text-slate-900 dark:text-slate-100">Community</Link>
+            <Link href="/contact" className="py-2 text-slate-900 dark:text-slate-100">Contact</Link>
           </div>
         </div>
       )}
