@@ -11,5 +11,8 @@ services:
         value: production
       - key: NEXT_TELEMETRY_DISABLED
         value: "1"
-    # disk: 1024
+    disk:
+      name: healthyhearts-data
+      mountPath: /opt/data
+      sizeGB: 10
     region: frankfurt
