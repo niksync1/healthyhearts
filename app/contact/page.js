@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Contact — Life After 30',
+  title: 'Contact — Life From 30',
   description: 'Contact us for partnerships, questions, or support.'
 }
 

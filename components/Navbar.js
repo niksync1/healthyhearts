@@ -26,8 +26,8 @@ export default function Navbar(){
     <header className="bg-white dark:bg-slate-900 shadow-sm sticky top-0 z-40">
       <div className="container flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/main_logo.png" alt="Life After 30" width={40} height={40} />
-          <span className="font-semibold text-lg text-slate-900 dark:text-slate-100">Life After 30</span>
+          <Image src="/main_logo.png" alt="Life From 30" width={40} height={40} />
+          <span className="font-semibold text-lg text-slate-900 dark:text-slate-100">Life From 30</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Resources — Life After 30',
+  title: 'Resources — Life From 30',
   description: 'Exercise tips, nutrition guidance, and blood pressure education for adults.'
 }
 

@@ -1,7 +1,7 @@
 import VolunteerSignup from '../../components/VolunteerSignup'
 
 export const metadata = {
-  title: 'Community — Life After 30',
+  title: 'Community — Life From 30',
   description: 'Get involved: events, volunteering, and community support.'
 }
 

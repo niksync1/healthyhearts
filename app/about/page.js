@@ -1,19 +1,19 @@
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'About — Life After 30',
+  title: 'About — Life From 30',
   description: 'Our story and mission to help adults live healthier lives after 30.'
 }
 
 export default function About(){
   return (
     <div className="container py-12">
-      <h1 className="text-3xl font-bold mb-4">About Life After 30</h1>
+      <h1 className="text-3xl font-bold mb-4">About Life From 30</h1>
       <p className="text-slate-700 dark:text-slate-300 mb-4">We advocate for adults to prioritize long-term health after their 30s through exercise, nutrition, and routine monitoring.</p>
 
       <section className="mt-6">
         <h2 className="text-2xl font-semibold">Our Story</h2>
-        <p className="mt-2 text-slate-700 dark:text-slate-300">Life After 30 started as a small community initiative and grew into a charity focused on practical, sustainable health habits for busy adults.</p>
+        <p className="mt-2 text-slate-700 dark:text-slate-300">Life From 30 started as a small community initiative and grew into a charity focused on practical, sustainable health habits for busy adults.</p>
       </section>
 
       <section className="mt-8">

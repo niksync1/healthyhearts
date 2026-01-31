@@ -1,6 +1,6 @@
-# Life After 30 — Next.js + Tailwind prototype
+# Life From 30 — Next.js + Tailwind prototype
 
-This is a starter Next.js (App Router) project scaffold for the "Life After 30" charity site.
+This is a starter Next.js (App Router) project scaffold for the "Life From 30" charity site.
 
 What's included
 - Next.js App Router pages: Home, About, Resources, Community, Contact
@@ -25,7 +25,7 @@ Preparing for GitHub
 ```powershell
 git init
 git add .
-git commit -m "Initial commit: Life After 30 prototype"
+git commit -m "Initial commit: Life From 30 prototype"
 git branch -M main
 git remote add origin https://github.com/<your-username>/<repo>.git
 git push -u origin main
