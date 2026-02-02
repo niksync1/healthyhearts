@@ -1,9 +1,14 @@
 "use client"
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 export default function VolunteerSignup(){
   const [form, setForm] = useState({name:'', email:''})
   const [status, setStatus] = useState('')
+  const isMounted = useRef(true)
+
+  useEffect(()=>{
+    return ()=>{ isMounted.current = false }
+  },[])
 
   async function submit(e){
     e.preventDefault()
@@ -11,9 +16,11 @@ export default function VolunteerSignup(){
     try{
       // mock delay
       await new Promise(r=>setTimeout(r,500))
+      if(!isMounted.current) return
       setStatus('Thanks — we received your signup (mock)')
       setForm({name:'', email:''})
     } catch(err){
+      if(!isMounted.current) return
       setStatus('Error submitting')
     }
   }

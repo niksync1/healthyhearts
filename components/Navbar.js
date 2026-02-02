@@ -49,10 +49,10 @@ export default function Navbar(){
       {open && (
         <div className="md:hidden bg-white dark:bg-slate-900 border-t">
           <div className="container flex flex-col py-4">
-            <Link href="/about" className="py-2 text-slate-900 dark:text-slate-100">About</Link>
-            <Link href="/resources" className="py-2 text-slate-900 dark:text-slate-100">Resources</Link>
-            <Link href="/community" className="py-2 text-slate-900 dark:text-slate-100">Community</Link>
-            <Link href="/contact" className="py-2 text-slate-900 dark:text-slate-100">Contact</Link>
+            <Link href="/about" onClick={()=>setOpen(false)} className="py-2 text-slate-900 dark:text-slate-100">About</Link>
+            <Link href="/resources" onClick={()=>setOpen(false)} className="py-2 text-slate-900 dark:text-slate-100">Resources</Link>
+            <Link href="/community" onClick={()=>setOpen(false)} className="py-2 text-slate-900 dark:text-slate-100">Community</Link>
+            <Link href="/contact" onClick={()=>setOpen(false)} className="py-2 text-slate-900 dark:text-slate-100">Contact</Link>
           </div>
         </div>
       )}
