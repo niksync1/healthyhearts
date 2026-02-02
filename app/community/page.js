@@ -1,4 +1,6 @@
 import VolunteerSignup from '../../components/VolunteerSignup'
+import Gallery from '../../components/Gallery'
+import events from '../../data/events.json'
 
 export const metadata = {
   title: 'Community — Life From 30',
@@ -13,7 +15,7 @@ const mockEvents = [
 export default function Community(){
   return (
     <div className="container py-12">
-      <h1 className="text-2xl font-bold mb-4">Community & Get Involved</h1>
+      <h1 className="text-2xl font-bold mb-4">Community support. Get Involved</h1>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3">Volunteer Signup</h2>
@@ -29,6 +31,14 @@ export default function Community(){
               <div className="text-sm text-slate-600 dark:text-slate-300">{ev.date}</div>
             </div>
           ))}
+        </div>
+      </section>
+      <section className="mt-10">
+        <h2 className="text-xl font-semibold text-brand-dark mb-3">Photo highlights</h2>
+        <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">A quick preview from recent outreach events — click an image to enlarge or visit the full gallery.</p>
+        <Gallery events={events} />
+        <div className="mt-4">
+          <a href="/gallery" className="text-sm text-brand-green hover:underline">View full gallery</a>
         </div>
       </section>
     </div>

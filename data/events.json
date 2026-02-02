@@ -1,0 +1,21 @@
+[
+  {
+    "id": "health-fair-2024",
+    "title": "Community Health Fair 2024",
+    "date": "2024-06-12",
+    "images": [
+      { "src": "/events/20240914_151947.jpg", "alt": "Volunteers checking blood pressure", "caption": "BP screening station" },
+      { "src": "/events/20240914_152005.jpg", "alt": "Health talk crowd", "caption": "Nutrition talk" },
+      { "src": "/events/20240914_152314.jpg", "alt": "Volunteer team", "caption": "Volunteer team photo" }
+    ]
+  },
+  {
+    "id": "outreach-kumasi-2025",
+    "title": "Outreach — Kumasi 2025",
+    "date": "2025-02-18",
+    "images": [
+      { "src": "/events/20240914_151919.jpg", "alt": "Community screening", "caption": "Screening" },
+      { "src": "/events/20240914_151944.jpg", "alt": "Children learning", "caption": "Healthy habits workshop" }
+    ]
+  }
+]

@@ -15,10 +15,11 @@ export default function Home(){
             <div className="mt-6 flex gap-3">
               <a href="/community" className="bg-teal-600 text-white px-4 py-2 rounded">Join Community</a>
               <a href="/resources" className="border border-teal-600 text-teal-600 px-4 py-2 rounded">Learn Healthy Habits</a>
+              <a href="/sponsor" className="bg-brand-green text-white px-4 py-2 rounded">Sponsorship</a>
             </div>
           </div>
           <div>
-            <Image src="/hero-placeholder.jpg" alt="Healthy living" width={600} height={400} className="rounded-lg shadow-md object-cover" />
+            <Image src="/hero_image.png" alt="Healthy living" width={600} height={400} className="rounded-lg shadow-md object-cover" />
           </div>
         </div>
       </section>
@@ -33,7 +34,7 @@ export default function Home(){
       </section>
 
       <section className="container py-8">
-        <h2 className="text-2xl font-semibold mb-4">What People Say</h2>
+        <h2 className="text-2xl font-semibold mb-4">Testimonies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Testimonial name="Aisha R." text="Joining the group helped me start walking daily—I've never felt better." />
           <Testimonial name="Mark T." text="The tips are practical and fit my schedule as a parent and full-time worker." />
